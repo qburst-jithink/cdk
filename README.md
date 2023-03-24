@@ -15,6 +15,8 @@ Please follow this documentation to install the AWS CDK: https://docs.aws.amazon
 
 - Create a python virtual environment
 
+`python -m pip install --user virtualenv`
+
 `python -m venv .venv`
 
 - Activate the virtual environment
