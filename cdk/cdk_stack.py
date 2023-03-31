@@ -76,6 +76,7 @@ class CdkStack(Stack):
         crawler = CfnCrawler(
             self,
             "MyGlueCrawler",
+            name="MyGlueCrawler",
             role="arn:aws:iam::789733903478:role/service-role/AWSGlueServiceRole",
             database_name="my-glue-database",
             targets={
